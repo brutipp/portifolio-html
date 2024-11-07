@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="/src/styles/style.css" class="css">
 </head>
    <style>
+          .container {
+            display: flex;          /* Ativa o modelo flexbox */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center;     /* Centraliza verticalmente */
+            height: 100vh;           /* A altura do contêiner será igual à altura da tela */
+            border: 1px solid #000;  /* Apenas para visualização */
+        }
+
+        .texto {
+            font-size: 200%;  /* Aumenta o tamanho da fonte para 150% do tamanho original */
+        }
+
+       p {
+        text-align: center;
+       }
+
     body {
     background-color: #ebefe6;
     }
@@ -27,8 +43,11 @@
         <a href="/src/pages/contato.html">Contato</a>
      </nav>
 
-    </header>
-    <p>Meu nome é Bruno Souza de Oliveira e tenho 18 anos. Pretendo trabalhar em alguma área envolvendo tecnologia, eu twenho conhecimento em criação de páginas HTML. </p>
+    </header> 
+    <div class="container">  
+    <p class="texto">Meu nome é Bruno Souza de Oliveira e tenho 18 anos. Pretendo trabalhar em alguma área envolvendo tecnologia, eu twenho conhecimento em criação de páginas HTML.</p>
+</div>
+
 </body>
 </html>
 

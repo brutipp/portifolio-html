@@ -11,6 +11,25 @@
     body{
         background-color: #ebefe6;
     }
+
+    .container {
+            display: flex;          /* Ativa o modelo flexbox */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center;     /* Centraliza verticalmente */
+            height: 100vh;           /* A altura do contêiner será igual à altura da tela */
+            border: 1px solid #000;  /* Apenas para visualização */
+        }
+
+        h2 {
+           font-size: 150%; 
+           text-align: center
+        }
+
+    h3 {
+        font-size: 200%;
+        text-align: center
+    }
+
    </style>
 <body>
     <header>
@@ -27,14 +46,19 @@
         <a href="/src/pages/contato.html">Contato</a>
      </nav>
 
+     <div class="container">
     </header>
-    <h1>BRUNO SOUZA DE OLIVEIRA</h1>
+    <h2>BRUNO SOUZA DE OLIVEIRA</h2>
     <h2>Endereço: Jardim Angela</h2>
-    <h3>Telefone: +55 11 96317-9310</h3>
-    <h4>E-mail: bruno291205@gmail.com</h4>
-    <h5>Idade: 18 anos-Estado civil: Solteiro</h5>
+    <h2>Telefone: +55 11 96317-9310</h2>
+    <h2>E-mail: bruno291205@gmail.com</h2>
+    <h2>Idade: 18 anos-Estado civil: Solteiro</h2>
 
-    <h1>Cursos</h1>
-    <h2>Senac-criação de páginas HTML</h2>
+</div>
+
+<div>
+    <h3>Cursos</h3>
+    <h3>Senac-criação de páginas HTML</h3>
+</div>
 </body>
 </html>

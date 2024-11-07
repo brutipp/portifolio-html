@@ -4,6 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portifolio HTML</title>
+    <style>
+        .texto-movel {
+            position: absolute; /* Torna a posição relativa ao contêiner ou à tela */
+            top: 200px;  /* Distância inicial do topo */
+            left: 100px; /* Distância da esquerda */
+            transition: top 1s; /* Transição suave */
+        }
+
+        .mover-para-cima {
+            top: 50px;  /* Novo valor para mover o texto para cima */
+        }
+        .imagem-movel {
+            position: absolute; /* Torna a posição relativa ao contêiner ou à tela */
+            top: 200px;  /* Distância inicial do topo */
+            left: 100px; /* Distância da esquerda */
+            transition: top 1s;  /* Transição suave */
+        }
+
+        /* A classe a ser adicionada para mover a imagem para cima */
+        .mover-para-cima {
+            top: 50px;  /* Novo valor para mover a imagem para cima */
+        }
+
+        h3 {
+        font-size:300%
+        }
+    </style>
+        
     <link rel="stylesheet" href="/src/styles/global.css" class="css">
     <link rel="stylesheet" href="/src/styles/style.css" class="css">
 </head>
@@ -34,7 +62,10 @@
                 <buttons class="button-white">Linkedin</buttons>
             </div>
         </aside>
-        <img src="/src/images/hero.jpg" alt="imagem minha">
+        <img src="/src/images/hero.jpg" alt="hero" class="hero-movel" id="hero"
+        style="width:400px;height:400px;">
+        
+        
     </main>
 
 </body>
