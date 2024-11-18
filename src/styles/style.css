@@ -39,7 +39,6 @@ main {
     height: 626px;
 
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 80px; 
     margin-top: 25px;
@@ -51,16 +50,20 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 aside h2 {
     color: purple;
     font-size: 45px;
     font-style: italic;
+    text-align: center;
+    
 }
 
 aside h3 {
-    font-size: 35;
+    font-size: 35px;
 }
 
 aside p {
@@ -75,6 +78,7 @@ main image {
 .button-container {
     display: flex;
     gap: 12px;
+    
 }
 
 .button-container button {
